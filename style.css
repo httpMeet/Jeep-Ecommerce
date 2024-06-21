@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(148,129,142);
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url("redthar.webp");
+   background-repeat: no-repeat;
+    background-size: 600px 400px;
+    background-position: right;
+    padding: 20px 10%;
+    transition: background-image 0.5s;
+}
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 10%;
+    cursor: pointer;
+}
+.btn{
+    text-decoration: none;
+    color: #fff;
+    background: #333;
+    padding: 14px 50px;
+    border-radius: 30px;
+}
+.content{
+    margin-top: 10%;
+}
+.content h2{
+    color: red;
+    font-size: 34px;
+}
+.content h1{
+    font-size:75px;
+    color: #222;
+    margin-top: -5px;
+}
+.content p{
+    max-width: 380px;
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 20px;
+    color: #555;
+}
+.content h3{
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 24px;
+}
+.color-select div{
+    background: #333;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.color-select{
+    display: flex;
+    margin-top: 30px;
+}
+.color-select #red{
+    background-color: red;
+    
+}
+.color-select #black{
+    background-color: black;
+}
+.color-select #green{
+    background-color: goldenrod;
+}
